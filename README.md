@@ -7,7 +7,7 @@ OS: Ubuntu 14.10.
     [To download the composer package]  
     i.   /var/www$  curl -sS https://getcomposer.org/installer | php
 
-    [To move the composer.phar file to the bin directory]
+    [To move the composer.phar file to the bin directory]            
     ii.  /var/www$  sudo mv composer.phar /usr/local/bin/
     
     [To set permission to the bin directory]
