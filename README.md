@@ -10,7 +10,7 @@ OS: Ubuntu 14.10.
     [To move the composer.phar file to the bin directory]            
     ii.  /var/www$  sudo mv composer.phar /usr/local/bin/composer
     
-    ============
+    ----------********-------------
     via laravel installer
     sudo composer global require "laravel/installer=~1.1"
     
@@ -45,7 +45,7 @@ OS: Ubuntu 14.10.
     
     php artisan serve
     
-    =====================
+    ----------********-------------
     
     
     [To set permission to the bin directory]                           
