@@ -30,6 +30,8 @@ OS: Ubuntu 14.10.
     
     [To set Permission to the yourappdirectoryname]                          
     ii. /var/www$ sudo chmod -R 777 yourappdirectoryname
+    
+3. Viewing the project in the browser
      
 
 A cv with bootstrap frontend and api backend. The backend api may be in laravel or in codeigniter.
