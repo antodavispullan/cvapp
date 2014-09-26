@@ -18,7 +18,10 @@ OS: Ubuntu 14.10.
     iv. cd /var/www$ composer.phar
     
     [To put this folder on the PATH environment variable type]                   
-    5.export PATH="$PATH:~/.composer/vendor/bin"
+    v. /var/www$  export PATH="$PATH:~/.composer/vendor/bin"
+    
+    
+    vi. /var/www$  echo $PATH
 
 2. Installing Laravel 5.0
 
