@@ -17,17 +17,34 @@ OS: Ubuntu 14.10.
     export PATH="$PATH:~/.composer/vendor/bin"
     echo $PATH
     
-    [To see the larave commands]
+    [To see the laravel commands]
     ~/.composer/vendor/bin/laravel
     
-    [To see the larave commands]
+    [To see the laravel commands]
     laravel
     
-    laravel new cvapp
+    laravel new cvapp //ignore this
+    
+    cd cvapp          //ignore this
+    
+    php artisan -v    //ignore this
+    
+    cd ..
+    
+    [To install version 5]
+    sudo composer create-project laravel/laravel cvapp dev-develop --prefer-dist
     
     cd cvapp
-    
     php artisan -v
+    
+    cd ..
+    sudo chmod -R 777 cvapp
+    cd cvapp
+    
+    php artisan
+    
+    php artisan serve
+    
     =====================
     
     
