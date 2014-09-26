@@ -8,7 +8,7 @@ OS: Ubuntu 14.10.
     i.   /var/www$  curl -sS https://getcomposer.org/installer | php
 
     [To move the composer.phar file to the bin directory]            
-    ii.  /var/www$  sudo mv composer.phar /usr/local/bin/
+    ii.  /var/www$  sudo mv composer.phar /usr/local/bin/composer
     
     [To set permission to the bin directory]                           
     iii. cd /usr/local$  chmod -R 777 bin
