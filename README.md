@@ -10,11 +10,11 @@ OS: Ubuntu 14.10.
     [To move the composer.phar file to the bin directory]            
     ii.  /var/www$  sudo mv composer.phar /usr/local/bin/
     
-    [To set permission to the bin directory]
+    [To set permission to the bin directory]                           
     iii. cd /usr/local$  chmod -R 777 bin
     
-    [To verify composer is successfully working]
-    [shows Composer logo and version and certain commands]
+    [To verify composer is successfully working]                                 
+    [shows Composer logo and version and certain commands]                           
     iv. cd /var/www$ composer.phar
 
 2. Installing Laravel 5.0
