@@ -25,10 +25,10 @@ OS: Ubuntu 14.10.
 
 2. Installing Laravel 5.0
 
-    [To download and install laravel]
+    [To download and install laravel]                              
     i.   /var/www$ sudo composer.phar create-project laravel/laravel <yourappdirectoryname> dev-develop --prefer-dist
     
-    [To set Permission to the <yourappdirectoryname>]
+    [To set Permission to the <yourappdirectoryname>]                          
     ii. /var/www$ sudo chmod -R 777 laravel
      
 
