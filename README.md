@@ -20,7 +20,7 @@ OS: Ubuntu 14.10.
     [To put this folder on the PATH environment variable type]                   
     v. /var/www$  export PATH="$PATH:~/.composer/vendor/bin"
     
-    [To know what the PATH contains]
+    [To know what the PATH contains]                                  
     vi. /var/www$  echo $PATH
 
 2. Installing Laravel 5.0
