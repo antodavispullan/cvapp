@@ -16,6 +16,9 @@ OS: Ubuntu 14.10.
     [To verify composer is successfully working]                                 
     [shows Composer logo and version and certain commands]                           
     iv. cd /var/www$ composer.phar
+    
+    [To put this folder on the PATH environment variable type]                   
+    5.export PATH="$PATH:~/.composer/vendor/bin"
 
 2. Installing Laravel 5.0
 
