@@ -10,6 +10,27 @@ OS: Ubuntu 14.10.
     [To move the composer.phar file to the bin directory]            
     ii.  /var/www$  sudo mv composer.phar /usr/local/bin/composer
     
+    ============
+    via laravel installer
+    sudo composer global require "laravel/installer=~1.1"
+    
+    export PATH="$PATH:~/.composer/vendor/bin"
+    echo $PATH
+    
+    [To see the larave commands]
+    ~/.composer/vendor/bin/laravel
+    
+    [To see the larave commands]
+    laravel
+    
+    laravel new cvapp
+    
+    cd cvapp
+    
+    php artisan -v
+    =====================
+    
+    
     [To set permission to the bin directory]                           
     iii. cd /usr/local$  chmod -R 777 bin
     
