@@ -12,6 +12,7 @@ OS: Ubuntu 14.10.
     
     ----------********-------------
     via laravel installer
+    
     sudo composer global require "laravel/installer=~1.1"
     
     export PATH="$PATH:~/.composer/vendor/bin"
@@ -45,6 +46,11 @@ OS: Ubuntu 14.10.
     
     php artisan serve
     
+    Failed to listen on localhost:8000 (reason: Address already in use)
+    
+    ps -F  // listing all process
+    
+    kill -9 PID  //1298 Php  artisan serve
     ----------********-------------
     
     
